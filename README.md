@@ -1,36 +1,161 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📊 Sales Dashboard (Next.js + TypeScript + Tailwind + Recharts)
 
-## Getting Started
+A modern Sales Dashboard built using **Next.js App Router**, **TypeScript**, **Tailwind CSS**, and **Recharts**. The dashboard displays mock sales data for the years **2022, 2023, and 2024** using interactive charts.
 
-First, run the development server:
+---
 
+## 🚀 Features
+
+- ✅ **Atomic Design Structure**
+  - Atoms → Reusable small components (`Button`, `InputField`)
+  - Molecules → Composite components (`ChartSelector`)
+  - Organisms → Feature-level components (`SalesChart`)
+- ✅ **Multiple Chart Types**
+  - Bar Chart
+  - Line Chart
+  - Pie Chart
+- ✅ **Mock Sales Data**
+  - Random data sourced from Kaggle-like format (manually generated)
+- ✅ **Responsive UI** using Tailwind CSS
+- ✅ **Next.js App Router** structure
+
+---
+
+## 📂 Project Structure
+
+src/
+app/
+layout.tsx
+dashboard/
+page.tsx
+components/
+atoms/
+Button.tsx
+InputField.tsx
+molecules/
+ChartSelector.tsx
+organisms/
+SalesChart.tsx
+styles/
+globals.css
+tailwind.config.js
+postcss.config.js
+package.json
+tsconfig.json
+
+yaml
+Copy code
+
+---
+
+## 📦 Technology Stack
+
+| Technology   | Purpose                |
+|--------------|------------------------|
+| Next.js      | Frontend Framework     |
+| TypeScript   | Type Safety            |
+| Tailwind CSS | Styling Framework      |
+| Recharts     | Chart Visualization    |
+
+---
+
+## 🛠️ Installation & Setup
+
+### 1️⃣ Clone the Repository
 ```bash
+git clone https://github.com/YOUR_USERNAME/sales-dashboard.git
+cd sales-dashboard
+2️⃣ Install Dependencies
+bash
+Copy code
+npm install
+3️⃣ Run the Project
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🌐 Access the Dashboard
+bash
+Copy code
+http://localhost:3000/dashboard
+📊 Available Charts
+Sales data for 2022, 2023, and 2024
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Toggle between:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Bar Chart
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Line Chart
 
-## Learn More
+Pie Chart
 
-To learn more about Next.js, take a look at the following resources:
+🔮 Future Enhancements
+Feature	Description	Status
+Custom Sales Filter	Allow user to input minimum sales threshold	⏳ Planned
+API Integration	Fetch real-time sales data from API	⏳ Planned
+Extra Chart Types	Area Chart, Radar Chart support	⏳ Planned
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📚 How to Contribute
+Fork the repository
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Create a feature branch
 
-## Deploy on Vercel
+Commit your changes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Create a pull request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🤝 Author
+Your Name
+Frontend Developer | React | Next.js | TypeScript
+
+📜 License
+This project is licensed under the MIT License.
+
+yaml
+Copy code
+
+---
+
+# 🔧 Git Setup & Push Instructions (Step-by-Step)
+
+> Run the commands **exactly in this order** from your project directory in PowerShell or terminal.
+
+### 1️⃣ Initialize Git
+```bash
+git init
+2️⃣ Add all files to staging
+bash
+Copy code
+git add .
+3️⃣ Commit your work
+bash
+Copy code
+git commit -m "Initial commit - Sales Dashboard Project"
+4️⃣ Create a new GitHub repository
+Go to https://github.com
+
+Click New Repository
+
+Name it: sales-dashboard
+
+Choose Public
+
+Click Create Repository
+
+5️⃣ Link your local repo to GitHub
+bash
+Copy code
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/sales-dashboard.git
+🔄 Replace YOUR_USERNAME with your actual GitHub username.
+
+6️⃣ Push to GitHub
+bash
+Copy code
+git push -u origin main
+🎉 Deployment Tip (Optional: Vercel)
+To deploy easily:
+
+bash
+Copy code
+npm install -g vercel
+vercel
