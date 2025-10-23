@@ -20,8 +20,14 @@ A modern Sales Dashboard built using **Next.js App Router**, **TypeScript**, **T
 - ✅ **Next.js App Router** structure
 
 ---
-Vrcel Link :- 
+
+
+## Vercel Link :- 
+
 https://sales-dashboard-kzp6omvxa-kanishkas-projects-95e27a37.vercel.app/dashboard
+
+---
+
 
 ## 📂 Project Structure
 
