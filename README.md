@@ -3,6 +3,38 @@
 A modern Sales Dashboard built using **Next.js App Router**, **TypeScript**, **Tailwind CSS**, and **Recharts**. The dashboard displays mock sales data for the years **2022, 2023, and 2024** using interactive charts.
 
 ---
+## PROBLEM STATEMENT
+
+Create a basic website with atomic structural principle with Next js
+
+Add chart and mock-up the data, create a Sales for 2024, 2023, 2022. find random sales from kaggle and make a simple application that showing sales of that year
+
+Enhancements
+
+For further advancement, consider
+
+- Custom Filter Input, add an input field to let users set their own sales threshold.
+
+- API Integration, fetch real data from an API instead of using mockup data.
+
+- Multiple Chart Types, add buttons to switch between bar, line, or pie charts using Recharts components.
+
+
+Create this project requirement
+
+- Using next js 15, typescript, tailwinds, etc.
+
+- Create multiple component chart, you can use external library.
+
+- Create an empty dashboard page
+
+- Add the component inside the dashboard page
+
+- Add proper readme, what did you do in the project and how to setup your project
+
+Using your own GitHub and make a new repo and push everything you got in the there.
+
+---
 
 ## 🚀 Features
 
